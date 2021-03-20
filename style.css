@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 0;
  }
+
  /* -------------------- Home --------------------  */
 .container_Home{
     display: grid;
@@ -122,6 +123,13 @@ body{
 .skill_ai{
     border-left: solid rgb(240, 170, 52);
     border-right: solid rgb(240, 170, 52);
+}
+
+/* -------------------- skills --------------------  */
+.container_assignment{
+    font-family: 'Kanit', sans-serif;
+    padding: 5% 0%;
+    background-color: rgb(28, 28, 28);
 }
 
 
