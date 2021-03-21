@@ -475,6 +475,25 @@ hr{
     .content_assignment img{
         margin-top: 10%;
     }
+    .assignment1 h1{
+        top: 9%;
+        left: 7%;
+    }
+
+    .assignment2 h1{
+        top: 9%;
+        left: 7%;
+    }
+
+    .assignment3 h1{
+        top: 9%;
+        left: 7%;
+    }
+
+    .assignment4 h1{
+        top: 9%;
+        left: 7%;
+    }
     /* -------------------- footer --------------------  */
     .contact {
         display: none;
