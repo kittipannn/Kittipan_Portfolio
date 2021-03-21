@@ -240,8 +240,28 @@ hr{
     right: 5%;
     text-align: right;
 }
-
-
+/* -------------------- footer --------------------  */
+.container_footer{
+    font-family: 'Kanit', sans-serif;
+    padding: 1% 0%;
+    background-color: rgb(28, 28, 28);
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+.contact{
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-bottom: 1%;
+}
+.icon_contact{
+    display: none;
+}
+.ref a{
+    font-size: 12px;
+}
 
 
 /* -------------------- Responsive --------------------  */
@@ -455,8 +475,26 @@ hr{
     .content_assignment img{
         margin-top: 10%;
     }
-    
-
+    /* -------------------- footer --------------------  */
+    .contact {
+        display: none;
+    }
+    .icon_contact{
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+        
+    }.icon_contact a {
+        
+        margin: 0% 5%;
+        font-size: 15px;
+    }
+    .container_footer{
+        font-size: 7px;
+    }
+    .ref{
+        margin: 3% 0%;
+    }
     
 }
 
