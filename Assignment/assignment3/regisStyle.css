@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(31, 31, 31);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 35px;
+    color: blanchedalmond;
+}
+legend{
+    font-size: 50px;
+    margin: auto;
+}
+fieldset
+{
+    margin: auto;
+    margin-top: 10%;
+    width: 650px;;
+}
+.buttonClass{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 50px;
+}
+.buttonClass input{
+    width: 45%;
+}
+.submit{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(46, 46, 46);
+    color: blanchedalmond;
+    font-size: 20px;
+}
+.reset{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(46, 46, 46);
+    color: blanchedalmond;
+    font-size: 20px;
+}
+input{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: auto;
+    height: 30px;
+}
+span{
+    font-size: 15px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='regisStyle.css'>
+	<link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Noto+Sans+JP:wght@500&family=Roboto:wght@700&family=RocknRoll+One&display=swap" rel="stylesheet">
+	<script src='register.js'></script>
+</head>
+<body>
+	<form name="myForm" id="myForm" action= "login.html">
+		<fieldset>
+			<legend>Register</legend>
+			<span>* require</span>
+			<span id="errormsg"></span> <br>
+			First name*: 
+			<input id="firstname" type="text" name="firstname" required><br>
+			Last name*: 
+			<input id="lastname" type="text" name="lastname" required>
+			<br>
+			Gender*: 
+			<input class="Gender" type="radio" name="gender" value="male" required >Male
+			<input class="Gender" type="radio" name="gender" value="female"required >Female
+			<input class="Gender" type="radio" name="gender" value="Other" required>Other
+			<br>
+			Birthday*: 
+			<input id="birthday" type="date" name="bday" value=""required >
+			<br>
+			Email address*: 
+			<input id="email" type="email" name="email" required>
+			<br>
+			Username*: 
+			<input id="username" type="text" name="username" required>
+			<br>
+			Password*: 
+			<input id="password" type="password" name="password" required>
+			<br>
+			Retype Password*: 
+			<input id="repassword" type="password" name="password" required>
+			<br>
+			
+			<div class="buttonClass">
+				<input class="submit" type="submit" value="Register">
+				<input class="reset" type="reset" value="Reset">
+			</div>
+		</fieldset>
+	</form>
+</body>
+</html>
+
+<!-- action="//login.html" -->

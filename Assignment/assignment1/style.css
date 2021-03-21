@@ -1,0 +1,169 @@
+body
+{
+    max-width: 80%;
+    margin: auto;
+}
+#header .text-box
+{
+    text-align: center;
+    margin-top: 20px;
+}
+#header h1 
+{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 50px;
+}
+#header h3 
+{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+#main-pic .box-pic
+{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#main-pic .box-pic .big_Pic img
+{
+    width: 100%;
+}
+#main-pic .box-pic .small_Pic
+{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#main-pic .box-pic .small_Pic img
+{
+    width: 33%;
+}
+h2 
+{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+ul ,p
+{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 15px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+h2 a:hover{
+    color: rgb(54, 54, 54);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% 40% 40% ;
+    grid-gap: 5px;
+}
+.grid-container > div
+{
+    border: 3px solid black;
+}
+#header
+{
+    grid-column: 1/span3;
+
+}
+#main-pic
+{
+    grid-column: 1/span3;
+    
+}
+
+#left .ingredient
+{
+    margin-left: 10px;
+
+}
+#right{
+    grid-column: 2/span3;
+}
+#right .details_Chicken_satay
+{
+    margin-left: 10px;
+}
+#bottom{
+    grid-column: 1/span3;
+}
+#bottom .content
+{
+    margin-left: 10px;
+}
+#footer
+{
+    grid-column: 1/span3;
+    text-align: center;
+}
+@media only screen and (max-width: 767px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 20% auto ;
+        grid-gap: 5px;
+    }
+    #header{
+        grid-column: 1 / span 2;
+    }
+    
+    #main-pic{
+        grid-column: 1 / span 2;
+    }
+    #left{
+        grid-column: 1 / span 1;
+    }
+    #left div{
+        display: inline-block;
+    }
+
+    #right{
+        grid-column: 2 / span 1;
+    }
+    #bottom{
+        grid-column: 1 / span 2;
+    }
+    #footer{
+        grid-column: 1 / span 2;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+    #header{
+        grid-column: 1 / span 1;
+    }
+    
+    #left{
+        grid-column: 1 / span 1;
+    }
+    
+    #main{
+        grid-column: 1 / span 1;
+    }
+    #right{
+        grid-column: 1 / span 1;
+    }
+    #footer{
+        grid-column: 1 / span 1;
+    }
+}
+
+
+

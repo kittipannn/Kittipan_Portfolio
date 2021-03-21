@@ -1,0 +1,63 @@
+body{
+    background-color: gray;
+}
+h1{
+    text-align: center;
+    background-color: white;
+   
+}
+.chatBox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: 720px;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: white;
+    font-family: fantasy;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.post{
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    height: 20%;
+}
+
+#topic1{
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 30px;
+    color: honeydew;
+}
+
+.comment{
+    height: 25%;
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgb(32, 32, 32);
+    border-radius: 2em;
+}
+
+#comment1{
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 20px;
+    color: honeydew;
+}
+
+#comment2{
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 20px;
+    color: honeydew;
+}
+
+.postComment{
+    display: grid;
+    grid-template-columns: 70% 15% 15%;
+    width: 90%;
+    height: 10%;
+    padding-left: 5%;
+}
