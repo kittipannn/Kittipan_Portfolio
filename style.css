@@ -552,14 +552,14 @@ hr{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 200px;
+        width: 180px;
         font-size: 20px;
     }
     .introduce h3{
         font-size: 20px;  
     }
     .introduce h1{
-        font-size: 60px;
+        font-size: 55px;
     }
     .sp{
         font-size: 10px;
