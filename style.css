@@ -116,7 +116,7 @@ a {
     text-align: center;
     padding: 2% 0%;
     color: rgb(240, 170, 52);
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
 }
 .container_skills h6{
@@ -499,8 +499,6 @@ hr{
         width: 80%;
     }
     /* -------------------- skills --------------------  */
-    
-
     .container_skills h1{
         padding-top: 5%;
         padding-bottom: 5%;
@@ -614,7 +612,7 @@ hr{
         text-align: center;
         padding-top: 10%;
         color: rgb(240, 170, 52);
-        font-size: 50px;
+        font-size: 30px;
         font-family: 'Josefin Sans', sans-serif;
     }
     .container_skills h6{
